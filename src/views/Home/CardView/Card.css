@@ -1,0 +1,31 @@
+.card {
+    height: 150px;
+    width: calc(100% - 32px);
+    margin: 16px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container-box {
+    height: 100%;
+    width: 40%;
+}
+
+.details-container {
+    width: 60%;
+    overflow: hidden;
+    padding: 8px 8px;
+    text-align: left;
+}
+
+.detail-label {
+    width: 100%;
+    padding: 4px 0px;
+    text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
